@@ -1,0 +1,66 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #F2F5A9;
+}
+
+h1{
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+h2{
+	margin: 0;
+}
+
+#main{
+	margin: 20px auto;
+	padding: 20px;
+	width: 900px;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+#products{
+	margin: 5px;
+	padding: 20px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: white;
+}
+
+.icons{
+	width: 100px;
+	height: 50px;
+	float: left;
+	display: table-cell;
+}
+
+i{
+	vertical-align: middle;
+}
+
+a{
+	padding: 10px;
+	background: #D45956;
+	border: 2px solid #C9302C;
+	border-radius: 5px;
+	color: white;
+	text-decoration: none;
+	transition: 1s;
+	
+}
+
+a:hover{
+	background: #D9534F;
+	cursor: pointer
+}
+
+#right{
+	margin-left: 150px;
+	margin-right: 50px;
+}
+
+.clear{
+	clear: both;
+}
